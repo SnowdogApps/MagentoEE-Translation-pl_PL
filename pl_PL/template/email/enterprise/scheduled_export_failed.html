@@ -1,0 +1,30 @@
+<!--@subject {{var operationName}} - Scheduled Export Failed @-->
+
+<table>
+    <thead>
+        <tr>
+            <th>"{{var operationName}}" - Zaplanowany eksport nie powiódł się.</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <p>
+                    <b>Nazwa procesu:</b><br />  {{var operationName}}
+                </p>
+                <p>
+                    <b>Typ obiektu:</b><br />  {{var entity}}
+                </p>
+                <p>
+                    <b>Historia plików:</b><br />  {{var fileName}}
+                </p>
+                <p>
+                    <b>Data i czas:</b><br />  {{var dateAndTime}}
+                </p>
+                <p>
+                    <b>Zapis ścieżki wykonania:</b><br />  {{var trace}}
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
