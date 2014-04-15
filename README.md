@@ -1,3 +1,1 @@
-Polish translation files for Magento Enterprise Edition.
-
-Pliki lokalizacyjne do Magento Enterprise Edition.
+Polish translation files for Magento Enterprise Edition 1.13.1.0.
